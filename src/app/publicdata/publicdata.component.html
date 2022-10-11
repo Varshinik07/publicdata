@@ -8,11 +8,12 @@
                         <thead>
                           <tr>
                             
-                            
+                            <th scope="col">ID Nation</th>
                             <th scope="col">Nation</th>
-                            
+                            <th scope="col">ID Year</th>
                             <th scope="col">Year</th>
                             <th scope="col">Population</th>
+                            <th scope="col">Slug Nation</th>
                             
                             
                           </tr>
@@ -20,11 +21,12 @@
                         <tbody>
                           <tr *ngFor="let i of publicData.data">
                             
-                            
+                            <td>{{i["ID Nation"]}}</td>
                             <td>{{i.Nation}}</td>
-                            
+                            <td>{{i["ID Year"]}}</td>
                             <td>{{i.Year}}</td>
                             <td>{{i.Population}}</td>
+                            <td>{{i["Slug Nation"]}}</td>
                             
                           </tr>
                           
