@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import{RouterModule,Routes} from '@angular/router';
+import { PublicdataComponent } from './publicdata/publicdata.component';
 const appRoutes:Routes=[
   {
    
@@ -13,7 +14,8 @@ const appRoutes:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    PublicdataComponent
   ],
   imports: [
     BrowserModule,
